@@ -67,9 +67,11 @@
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itext-pdfa -->
 		<dependency>
 			<groupId>com.itextpdf</groupId>
-			<artifactId>itext-pdfa</artifactId>
-			<version>5.5.13.3</version>
+			<artifactId>itext7-core</artifactId>
+			<version>7.0.4</version>
+			<type>pom</type>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
 		<dependency>

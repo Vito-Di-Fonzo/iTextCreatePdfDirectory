@@ -5,7 +5,6 @@ import java.io.FileOutputStream;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.List;
 import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfDocument;
 import com.itextpdf.text.pdf.PdfWriter;
 
 public class AddingList {
@@ -18,10 +17,6 @@ public class AddingList {
 		PdfWriter.getInstance(document, new FileOutputStream(destinazione));
 
 		document.open();
-
-		new PdfDocument();
-
-		new PdfDocument();
 
 		// Creating a Paragraph
 		Paragraph paragraph = new Paragraph("Tutorials Point provides the following tutorials");
